@@ -1,7 +1,5 @@
 package school.mjc.stage0.conditions.task5;
 
-import java.util.Scanner;
-
 public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
         switch (month){
@@ -27,14 +25,5 @@ public class SwitchDaysInMonthPrinter {
                 System.out.println("wrong number!");
         }
 
-    }
-
-    public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        System.out.println("Enter the month number ");
-        int monthNumber=input.nextInt();
-
-        SwitchDaysInMonthPrinter switchDaysInMonthPrinter=new SwitchDaysInMonthPrinter();
-        switchDaysInMonthPrinter.amountOfDays(monthNumber);
     }
 }
